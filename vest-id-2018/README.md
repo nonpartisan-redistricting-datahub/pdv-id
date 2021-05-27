@@ -1,7 +1,7 @@
 # pdv-id
 Partner data validation for Idaho, from VEST 2018. 
 
-Our final validation report for this dataset is available [here](). 
+Our final validation report for this dataset is available [here](). [In progress]
 
 We do not have the raw data sources available on this Github due to file constraints, but we are happy to share them if needed. 
 
@@ -23,12 +23,11 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
   - Online: https://www.census.gov/geo/partnerships/pvs/partnership19v2/st16_id.html
   - Source: U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release
   - Accessed: 5/18/2021
-- File: Election results, 2018 (cleaned)
-  - Online: https://github.com/MEDSL/2018-elections-official
-  - Source: MIT Election Data and Science Lab
-  - File name: `precinct_2018.zip` (available upon request)
-  - Accessed: 2/3/2021
-  - Note: this file is not listed by VEST. 
+- File: Election results, 2018 
+  - Online: https://sos.idaho.gov/elections-division/election-results/
+  - Source: ID Secretary of State
+  - File name: `18gen_stwd_pct.xls` (available upon request)
+  - Accessed: 5/20/2021
 
 ### Inaccessible files
 
@@ -76,29 +75,27 @@ Tracking down county shapefiles, the following links were all accessed on 5/18/2
 - Lemhi
   - Note: not finding any precinct maps or GIS department on the county site. 
 - Lewis
-  - Link: 
-  - Note: 
+  - Note: not finding any precinct maps or GIS department on the county site. 
 - Madison
-  - Link: 
-  - Note: 
+  - Link: https://www.co.madison.id.us/departments/elections/65-august-28-2018-election-precinct-voting-location-map
+  - Note: found a 2018 PDF map that looks like it was made from a shapefile. There is a GIS department. 
 - Minidoka
-  - Link: 
-  - Note: 
+  - Link: https://www.minidoka.id.us/178/Voting-Precincts
+  - Note: finding precinct maps that were made from a shapefile, there is contact information for Auditor and GIS consultants. 
 - Nez Perce
-  - Link: 
-  - Note: 
+  - Link: https://www.co.nezperce.id.us/Elected-Officials/Clerk-Auditor/Elections/Precinct-List
+  - Note: PDF map available on the right side of this page. 
 - Oneida
-  - Link: 
-  - Note: 
+  - Note: not finding any precinct maps or GIS department on the county site. 
 - Power
-  - Link: 
-  - Note: 
+  - Link: https://www.co.power.id.us/power-county-clerk-auditor-recorder/precinct-and-taxing-district-maps/
+  - Note: PDF map available. 
 - Twin Falls
-  - Link: 
-  - Note: 
+  - Link: https://twinfallscounty.org/wp-content/uploads/TFCo-Legislative-Districts-002.pdf
+  - Note: PDF map available. 
 - Valley
-  - Link: 
-  - Note: 
+  - Link: http://www.co.valley.id.us/departments/election-information/, click Taxing District/Voting Info under online maps to get to https://valleycounty.maps.arcgis.com/apps/webappviewer/index.html?id=34244a0b84f64fb880dd9b4a29b146d8
+  - Note: it seems like the City Precincts and County Precincts show maps for the 7 precincts in Valley County, but there is no shapefile available to download. 
 
 
 ## Processing
